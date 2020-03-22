@@ -1,4 +1,6 @@
 import Home from '../pages/home'
+import Contacto from '../pages/contacto'
+import Sitios from '../pages/sitios'
 import Error404 from '../pages/error404'
 import header from '../templates/header'
 
@@ -7,7 +9,9 @@ import resolveRoutes from '../utils/resolveRoutes'
 
 const routes = {
     "/": Home,
-    "/error404": Error404
+    "/error404": Error404,
+    "/contacto":Contacto,
+    "/sitios":Sitios
 };
 
 const router = async () => {

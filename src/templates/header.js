@@ -14,13 +14,13 @@ const header=()=>{
             <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#/catalogo">Catalogo</a>
+            <a class="nav-link" href="#/sitios">Sitios de interes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#/noticias">Noticias</a>
+            <a class="nav-link" href="#/contacto">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#/error404">Tienda</a>
+            <a class="nav-link" href="#/error404">¿?</a>
           </li>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Action</a>
@@ -39,7 +39,8 @@ const header=()=>{
         <span class="navbar-toggler-icon"></span>
       </button>
     </nav>
-  </div>`
+  </div>
+  `
   return view;
 }
 
